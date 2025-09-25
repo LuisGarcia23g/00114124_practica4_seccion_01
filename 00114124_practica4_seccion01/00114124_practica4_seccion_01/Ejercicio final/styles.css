@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(19, 103, 139);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #e3f2fd; 
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    padding: 32px;
+}
+
+header h1 {
+    color: #ffffff; 
+    margin-bottom: 8px;
+    background: #156082; 
+    border-radius: 8px;
+    padding: 12px 0;
+}
+
+header p {
+    color: #156082;
+    margin-top: 0;
+    background: #b3e5fc; 
+    border-radius: 8px;
+    padding: 8px 0;
+}
+
+.card {
+    background: #b3e5fc; 
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 24px;
+    box-shadow: 0 2px 8px rgba(21, 96, 130, 0.10);
+}
+
+.selection-section h2,
+.resultado-section h2 {
+    color: #156082; 
+}
+
+.day-group label {
+    color: #156082; 
+}
+
+select {
+    background: #e3f2fd; 
+    border: 1px solid #156082;
+    border-radius: 6px;
+    padding: 6px 12px;
+    color: #156082;
+    margin-left: 8px;
+}
+
+.resultado-card {
+    background: #e3f2fd; 
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 12px;
+    color: #156082;
+}
+
+.placeholder {
+    color: #156082;
+    opacity: 0.7;
+}

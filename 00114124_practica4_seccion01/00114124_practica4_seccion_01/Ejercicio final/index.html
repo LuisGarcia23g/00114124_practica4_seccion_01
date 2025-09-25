@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recordatorios de la semana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 style="text-align: center;">
+    Recordatorios de la Semana
+</h1>
+
+            <p style="text-align: center;">Agenda semanal de actividades</p>
+        </header>
+
+        <main class="card">
+            <div class="selection-section">
+                <h2>Recordatorios</h2>
+                <div class="day-group">
+                    <label for="diaSemana">Día de la semana:</label>
+                    <select id="diaSemana">
+                        <option value="">Selecciona un día</option>
+                        <option value="lunes">Lunes</option>
+                        <option value="martes">Martes</option>
+                        <option value="miércoles">Miércoles</option>
+                        <option value="jueves">Jueves</option>
+                        <option value="viernes">Viernes</option>
+                        <option value="sábado">Sábado</option>
+                        <option value="domingo">Domingo</option>
+                    </select>
+
+
+
+                </div>
+            </div>
+
+
+            <div class="resultado-section">
+                <h2>Tu Actividad del Día</h2>
+                <div id="resultadoActividad" class="resultado-card">
+                    <p class="placeholder">Selecciona un día para ver tu actividad programada</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
